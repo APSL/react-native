@@ -9,6 +9,7 @@
 'use strict';
 
 require.requireActual('../packager/react-packager/src/Resolver/polyfills/babelHelpers.js');
+require.requireActual('../packager/react-packager/src/Resolver/polyfills/Object.es7.js');
 
 global.__DEV__ = true;
 global.__fbBatchedBridgeConfig = {
