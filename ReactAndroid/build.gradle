@@ -257,6 +257,7 @@ android {
 
     lintOptions {
         abortOnError false
+        warning 'InvalidPackage'
     }
     packagingOptions {
         exclude 'META-INF/NOTICE'
